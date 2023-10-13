@@ -1,0 +1,42 @@
+.color-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background-color: rgb(66, 1, 66); 
+    border: 1px solid black;
+    border-radius: 25px;
+    justify-content: center;
+    max-width: 1000px; /* Set a maximum width for the color display area */
+    margin: 0 auto;
+  }
+  
+ 
+  .colors-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .color {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    border: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    display: block; /* Ensures the button is displayed as a block-level element */
+    margin: 0 auto; 
+  }
+  
